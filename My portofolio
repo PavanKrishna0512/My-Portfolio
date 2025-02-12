@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#4CAF50',  // Custom Green Color
+                        'secondary': '#FF5722', // Custom Red Color
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-primary p-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold">PAVAN KRISHNA K</a>
+            <ul class="flex space-x-6 text-white">
+                <li><a href="#about" class="hover:text-secondary">About</a></li>
+                <li><a href="#skills" class="hover:text-secondary">Skills</a></li>
+                <li><a href="#resume" class="hover:text-secondary">My Resume</a></li>
+                <li><a href="#contact" class="hover:text-secondary">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="bg-primary text-white text-center py-20">
+        <div>
+            <h1 class="text-5xl font-bold mb-4">Hi, I'm PAVAN KRISHNA K</h1>
+            <p class="text-lg mb-6">A passionate web developer eager to learn and grow.</p>
+            <a href="#contact" class="bg-secondary text-white py-2 px-6 rounded-full text-lg hover:bg-gray-800">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20">
+        <div class="max-w-7xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-8">About Me</h2>
+            
+            <p class="text-lg mb-6">I'm a web developer with a strong foundation in HTML, CSS, and JavaScript. I am eager to contribute my skills to building interactive and responsive websites. I love learning new technologies and improving my skills.I am a student at RV Institute of Technology
+                And Management Bengaluru , majoring in information science.I am looking for opportunities to work as a front-end developer to make an impact through clean, maintainable code.</p>  
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gray-50 py-20">
+        <div class="max-w-7xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-8">Skills</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="skill-card">
+                    <h3 class="font-semibold text-xl mb-4">HTML</h3>
+                    <div class="bg-primary h-2 w-4/5 mx-auto rounded"></div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="font-semibold text-xl mb-4">CSS</h3>
+                    <div class="bg-primary h-2 w-4/5 mx-auto rounded"></div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="font-semibold text-xl mb-4">JavaScript</h3>
+                    <div class="bg-primary h-2 w-4/5 mx-auto rounded"></div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="font-semibold text-xl mb-4">C</h3>
+                    <div class="bg-primary h-2 w-3/5 mx-auto rounded"></div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="font-semibold text-xl mb-4">python</h3>
+                    <div class="bg-primary h-2 w-3/5 mx-auto rounded"></div>
+                </div>
+                <div class="skill-card">
+                    <h3 class="font-semibold text-xl mb-4">C++</h3>
+                    <div class="bg-primary h-2 w-4/5 mx-auto rounded"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="bg-white py-20">
+    <div class="max-w-7xl mx-auto text-center px-4">
+        <h2 class="text-3xl font-bold mb-8">My Resume</h2>
+        
+        <p class="text-lg text-gray-700 mb-6">Check out my resume to learn more about my skills, experience, and achievements. If you'd like to connect or hire me, feel free to download my full resume below!</p>
+        
+        <!-- Resume Download Button -->
+        <section id="My Resume" class="bg-primary text-white py-20">
+            <div class="max-w-7xl mx-auto text-center px-4"></div>
+            <a href="https://drive.google.com/file/d/1QbBc8Q9-LOXaxGMy6fsfSQuSsF-jUeH8/view?usp=drive_link" target="_blank" class="inline-block bg-secondary text-white py-3 px-6 rounded-full hover:bg-gray-800 mb-8">
+            Download Resume
+        </a>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-primary text-white py-20">
+        <div class="max-w-7xl mx-auto text-center px-4">
+            <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+            <p class="text-lg mb-6">Feel free to reach out to me for  job opportunities, or any questions!</p>
+            
+            
+            <!-- Social Media Links -->
+            <div class="flex justify-center space-x-6 text-xl">
+                <a href="https://www.linkedin.com/in/pavankrishna1205/" target="_blank" class="text-white hover:text-secondary">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/PavanKrishna0512" target="_blank" class="text-white hover:text-secondary">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="mailto:your.pavankrishnayadav8@gmail.com " class="text-white hover:text-secondary">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6">
+        <p>&copy; 2025 PAVAN KRISHNA K. </p>
+    </footer>
+
+</body>
+</html>
