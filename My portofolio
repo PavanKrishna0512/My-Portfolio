@@ -94,7 +94,7 @@
         <!-- Resume Download Button -->
         <section id="My Resume" class="bg-primary text-white py-20">
             <div class="max-w-7xl mx-auto text-center px-4"></div>
-            <a href="https://drive.google.com/file/d/1QbBc8Q9-LOXaxGMy6fsfSQuSsF-jUeH8/view?usp=drive_link" target="_blank" class="inline-block bg-secondary text-white py-3 px-6 rounded-full hover:bg-gray-800 mb-8">
+            <a href="https://drive.google.com/file/d/1vPQDd2PXYczCXCNTHJ5apNzFAhvqTfyV/view?usp=drive_link" target="_blank" class="inline-block bg-secondary text-white py-3 px-6 rounded-full hover:bg-gray-800 mb-8">
             Download Resume
         </a>
         </div>
